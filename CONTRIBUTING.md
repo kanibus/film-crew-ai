@@ -27,7 +27,7 @@ By participating in this project, you agree to:
 ### 🐛 Reporting Bugs
 
 Found a bug? Help us fix it:
-1. Check if the bug is already reported in [Issues](https://github.com/yourusername/film-crew-ai/issues)
+1. Check if the bug is already reported in [Issues](https://github.com/kanibus/film-crew-ai/issues)
 2. If not, create a new issue with:
    - Clear title and description
    - Steps to reproduce
@@ -38,7 +38,7 @@ Found a bug? Help us fix it:
 ### 💡 Suggesting Features
 
 Have an idea? We'd love to hear it:
-1. Check [existing feature requests](https://github.com/yourusername/film-crew-ai/issues?q=is%3Aissue+label%3Aenhancement)
+1. Check [existing feature requests](https://github.com/kanibus/film-crew-ai/issues?q=is%3Aissue+label%3Aenhancement)
 2. Create a new issue with:
    - Use case description
    - Proposed solution
@@ -121,7 +121,7 @@ Visual Studio Code
 1. **Fork the repository**
    ```bash
    # Click "Fork" on GitHub, then:
-   git clone https://github.com/YOUR-USERNAME/film-crew-ai.git
+   git clone https://github.com/kanibus/film-crew-ai.git
    cd film-crew-ai
    ```
 
@@ -298,7 +298,7 @@ Current areas where we especially need help:
 ## 💬 Getting Help
 
 - 💭 **Discord**: [Join our community](https://discord.gg/filmcrewai)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/film-crew-ai/issues)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/kanibus/film-crew-ai/issues)
 - 📧 **Email**: filmcrewai@example.com
 
 ## 🙏 Recognition

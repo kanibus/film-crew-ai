@@ -8,7 +8,7 @@ Get your first script processed in under 5 minutes! 🎬
 
 1. **Download the project**:
    ```bash
-   git clone https://github.com/yourusername/film-crew-ai.git
+   git clone https://github.com/kanibus/film-crew-ai.git
    cd film-crew-ai
    ```
 
@@ -35,8 +35,8 @@ Get your first script processed in under 5 minutes! 🎬
 ### macOS/Linux Users
 
 ```bash
-# Clone repository
-git clone https://github.com/yourusername/film-crew-ai.git
+# Clone the repository
+git clone https://github.com/kanibus/film-crew-ai.git
 cd film-crew-ai
 
 # Install dependencies
@@ -254,6 +254,6 @@ claude-flow start --ui
 
 ---
 
-**Need help?** Join our [Discord](https://discord.gg/filmcrewai) or open an [issue](https://github.com/yourusername/film-crew-ai/issues)!
+**Need help?** Join our [Discord](https://discord.gg/filmcrewai) or open an [issue](https://github.com/kanibus/film-crew-ai/issues)!
 
 Happy filming! 🎬✨

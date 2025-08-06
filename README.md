@@ -75,8 +75,8 @@ Converting scripts to AI video prompts typically results in:
 ### 📦 Installation
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/film-crew-ai.git
+# 1. Clone this repository
+git clone https://github.com/kanibus/film-crew-ai.git
 cd film-crew-ai
 
 # 2. Run the installer (Windows)
@@ -447,6 +447,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 **Built with ❤️ for filmmakers embracing AI**
 
-[Report Bug](https://github.com/yourusername/film-crew-ai/issues) • [Request Feature](https://github.com/yourusername/film-crew-ai/issues) • [Join Discord](https://discord.gg/filmcrewai)
+[Report Bug](https://github.com/kanibus/film-crew-ai/issues) • [Request Feature](https://github.com/kanibus/film-crew-ai/issues) • [Join Discord](https://discord.gg/filmcrewai)
 
 </div>
