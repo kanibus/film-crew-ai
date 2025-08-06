@@ -1,0 +1,11 @@
+# Film Crew AI Requirements
+# Python 3.8+ required
+
+# Core dependencies (all included in Python standard library)
+# No external packages required for basic functionality
+
+# Optional dependencies for enhanced features (uncomment to install)
+# rich>=13.0.0        # For enhanced terminal output
+# click>=8.1.0        # For advanced CLI features
+# pyyaml>=6.0         # For YAML configuration support
+# jinja2>=3.1.0       # For template rendering

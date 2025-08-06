@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Film Crew AI Banner](https://img.shields.io/badge/Film%20Crew%20AI-v1.0.0-blue?style=for-the-badge)
-![Claude Flow](https://img.shields.io/badge/Claude%20Flow-v2.0.0--alpha-purple?style=for-the-badge)
+![Film Crew AI Banner](https://img.shields.io/badge/Film%20Crew%20AI-v3.0.0-blue?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.8%2B-purple?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-orange?style=for-the-badge)
 
