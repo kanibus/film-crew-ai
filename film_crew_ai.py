@@ -459,7 +459,7 @@ class FilmCrewProcessor:
         all_outputs = []
         for scene in scenes:
             for shot in scene.shots:
-                shot_outputs = self._process_shot(scene, shot, script_output_dir)
+                shot_outputs = self._process_shot(scene, shot, script_output_dir, script_path.stem)
                 all_outputs.append(shot_outputs)
         
         # Create master index
@@ -468,7 +468,7 @@ class FilmCrewProcessor:
         logger.info(f"Processing complete. Output: {script_output_dir}")
         return script_output_dir
     
-    def _process_shot(self, scene: Scene, shot: Shot, output_dir: Path) -> Dict:
+    def _process_shot(self, scene: Scene, shot: Shot, output_dir: Path, script_name: str) -> Dict:
         """Process individual shot through all agents"""
         logger.info(f"Processing shot {shot.shot_id}")
         
@@ -483,18 +483,19 @@ class FilmCrewProcessor:
             outputs[agent_name] = agent_output
         
         # Save outputs to appropriate directories
-        self._save_shot_outputs(shot, outputs, output_dir)
+        self._save_shot_outputs(shot, outputs, output_dir, script_name)
         
         return outputs
     
-    def _save_shot_outputs(self, shot: Shot, outputs: Dict, output_dir: Path):
-        """Save shot outputs to files"""
+    def _save_shot_outputs(self, shot: Shot, outputs: Dict, output_dir: Path, script_name: str):
+        """Save shot outputs to files with script name included"""
         
         # Veo3 prompt
         if "prompt-combiner" in outputs:
-            prompt_file = output_dir / "01_veo3_prompts" / f"shot_{shot.shot_id.replace('-', '_')}.json"
+            prompt_file = output_dir / "01_veo3_prompts" / f"{script_name}_shot_{shot.shot_id.replace('-', '_')}.json"
             with open(prompt_file, 'w', encoding='utf-8') as f:
                 json.dump({
+                    "script": script_name,
                     "shot_id": shot.shot_id,
                     "shot_type": shot.shot_type,
                     "duration": shot.duration,
@@ -503,27 +504,27 @@ class FilmCrewProcessor:
         
         # Camera setup
         if "camera-director" in outputs:
-            camera_file = output_dir / "06_camera" / f"shot_{shot.shot_id.replace('-', '_')}_camera.json"
+            camera_file = output_dir / "06_camera" / f"{script_name}_shot_{shot.shot_id.replace('-', '_')}_camera.json"
             with open(camera_file, 'w', encoding='utf-8') as f:
-                json.dump(outputs["camera-director"], f, indent=2)
+                json.dump({"script": script_name, **outputs["camera-director"]}, f, indent=2)
         
         # Lighting
         if "lighting-designer" in outputs:
-            lighting_file = output_dir / "05_lighting" / f"shot_{shot.shot_id.replace('-', '_')}_lighting.json"
+            lighting_file = output_dir / "05_lighting" / f"{script_name}_shot_{shot.shot_id.replace('-', '_')}_lighting.json"
             with open(lighting_file, 'w', encoding='utf-8') as f:
-                json.dump(outputs["lighting-designer"], f, indent=2)
+                json.dump({"script": script_name, **outputs["lighting-designer"]}, f, indent=2)
         
         # Sound design
         if "sound-designer" in outputs:
-            sound_file = output_dir / "03_sound_design" / f"scene_{shot.scene_number}_sound.json"
+            sound_file = output_dir / "03_sound_design" / f"{script_name}_scene_{shot.scene_number}_sound.json"
             with open(sound_file, 'w', encoding='utf-8') as f:
-                json.dump(outputs["sound-designer"], f, indent=2)
+                json.dump({"script": script_name, **outputs["sound-designer"]}, f, indent=2)
         
         # Music
         if "music-director" in outputs:
-            music_file = output_dir / "02_music_cues" / f"scene_{shot.scene_number}_music.json"
+            music_file = output_dir / "02_music_cues" / f"{script_name}_scene_{shot.scene_number}_music.json"
             with open(music_file, 'w', encoding='utf-8') as f:
-                json.dump(outputs["music-director"], f, indent=2)
+                json.dump({"script": script_name, **outputs["music-director"]}, f, indent=2)
     
     def _create_index(self, output_dir: Path, script_name: str, 
                      scenes: List[Scene], all_outputs: List[Dict]):

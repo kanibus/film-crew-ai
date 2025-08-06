@@ -1,0 +1,231 @@
+08-01-25
+Draft V3 - Health Vignettes
+“Health Industries Intro: Driving the Leading Edge”
+
+Overall vision: 
+PwC is driving clients to the leading edge with the firm’s vision for the future of healthcare. Let’s travel to 2035 to see just a few ways healthcare will be more accessible, personalized and streamlined through innovation and technology.
+
+Dr. Jalen Roy is the thread through this story. In 2025, Dr. Roy is overworked & exhausted. Then we travel 10 years into the future where healthcare has been modernized, and Dr. Roy attends to three patients. We end with Dr. Roy sleeping soundly as an AI-powered avatar boots up for the overnight shift.
+##
+
+Character breakdown:
+Dr. Jalen Roy, 40’s, African-American. His mother is also a physician (retired) and he has a teenage daughter. In 2025, Dr. Roy is burnt out and falling behind in life responsibilities.
+
+Michael, 62, Hispanic, overweight. He lives in a small farmhouse (lower socioeconomic) with his family 170 miles from the nearest hospital. Michael has atrial fibrillation (A-fib), but it’s under control with medication and regular check-ins with his doctor.
+
+Lanie, 40’s, white, dark hair, average build. Middle class home (middle or upper middle), mom of three young children and taking care of her elderly father with Alzheimer’s. 
+
+Priya, 76 years old, lives in a midwestern city. She’s relatively healthy and has a home health system that keeps her updated on her biomarkers. (Urban setting/middle class).
+##
+
+NOTE – the visual notes on the left side are not exact representations of what we will see. These are notes that will be further developed with our AI partners as we bring this to life.
+
+VISUAL NOTES	NARRATION (Vignette #3)
+Video:
+Dr. Roy in his home office. Paperwork scattered, laptop open. We see the time on the clock.
+	On screen text: Year: 2025. Time: 11:30pm
+
+VO:
+Meet Dr. Jalen Roy. 
+Video:
+Dr. Roy rubs his eyes, staring at his computer. 83 unread emails blinking. 
+On his desk, his daughter in a framed picture	VO: 
+He’s seen 19 patients today…
+
+On computer screen: 83 unread emails
+
+VO: 
+He missed his daughter’s soccer game… Would he ever tell her to become a doctor when she grows up?
+
+Video:
+Lots of moving lines and action (transition)
+
+We see Dr. Roy and a connection to the three characters we’re about to meet.
+	VO: (music transition)
+Welcome to 2035… where healthcare is no longer a maze of dead ends, but a straight line. Seamless, personalized, and a step ahead.
+
+Together with our clients, PwC is the catalyst for that momentum - revealing the story of how technology, economics and care can converge at a critical moment.
+
+Video:
+Transition going through time. 
+Dr. Roy logged into a sleek dashboard at home. This can be more futuristic than what the patients have access to.
+	VO: 
+In just ten years, the overburdened physician could be a thing of the past -- replaced by an empowered caregiver working at the Leading Edge of a reimagined healthcare system.
+Video:
+Dashboard scrolls through biometric alerts
+
+	VO: 
+Real-time monitoring. Zero waiting rooms.
+
+Care meets patients where they are—not the other way around.
+
+On screen alert: “Physical therapist en route”
+
+Video:
+A dashboard showing many faces/ages of patients remotely
+
+(see Michael in box)	Digital assistant voice: “You’ve guided health and wellness for 113 patients today and treated 20. Good job, Dr. Roy.” 
+
+VO: 
+His work is seamless, data-powered and deeply human, so he can focus on what matters most: better care when they need it, wherever patients are.
+
+Patient voice: (Michael) “Hi Dr. Roy, nice to see you today.”
+
+
+TRANSITION TO…
+
+VISUAL NOTES	NARRATION (Vignette #2)
+Video: 
+Establishing shot of farmhouse with text overlay
+	VO:
+
+Text on screen: Nearest hospital: 170 miles.
+
+Video:
+Michael outside working on his garden 	VO:
+Meet Michael, who lives alone in a rural area. He has A-Fib with early-stage heart failure risk, which has been under control with medication and regular check-ins... until today.
+
+Video:
+Michael looks at his watch as the alert comes up	(text on screen graphic)
+Text on watch: “Change in heart rhythm and signs of fluid retention.”
+
+Video:
+He taps the watch and the assistant chimes in
+	Digital assistant voice: 
+“Let’s check in - just a few questions.”
+
+Video:
+Ext of house with a drone landing in the yard with a small box
+((don’t need to see these tools. Maybe Michael takes out a kit))
+	VO: 
+An AI care agent evaluates his data and sends a next gen cardiac monitoring kit to his door a short time later. A wearable ECG, a smart stethoscope, and a cardiac biomarker test allow Dr. Roy to evaluate Michael in real time.
+
+Video:
+Michael on a video chat with Dr. Roy (phone/tablet/laptop)
+	VO: 
+Dr. Roy voice on panel: “Michael, your results show early signs of heart failure. I’m updating your treatment plan and sending you new medication.”
+
+Video:
+“Personalized care plan” appears on the digital device
+	Text on screen:
+Real-time adjustments. No travel needed. No waiting.
+
+
+Video:
+Michael outside - taps his watch again	Digital assistant voice: 
+“Today’s health: Stable.”
+
+Video:
+Michael working on garden, smiling, sun shining	VO: 
+This isn’t just telehealth - it’s precision care without borders, so rural patients can access early diagnoses, expert guidance, and peace of mind.
+
+
+TRANSITION TBA
+
+VISUAL NOTES	NARRATION (Vignette #1)
+Video: 
+Lanie waking up in bed. We see a framed picture of Lanie and older dad.	VO:
+This is Lanie, a mother of three young children who’s also taking care of her elderly father with Alzheimer’s.
+
+Video: 
+Lanie sits up, stretches. (We see a framed picture of her family that turns into the smart hub.)
+	VO:
+In 2035, she knows more about her family’s health before breakfast than most people ever learn in a doctor’s office.
+
+Video: 
+Bedside smart hub lights up as AI voice speaks
+	Digital assistant voice: 
+“Some updates about your dad. Medications - taken. Mood check - engaged.”
+
+Video: 
+Lanie in her kitchen, preparing breakfast 	VO: 
+This isn’t science fiction. It’s the logical evolution of technology, care, and economics converging to meet a problem we can no longer afford to ignore.
+
+Video: 
+Lanie in her kitchen, preparing breakfast
+ 	Digital assistant voice: 
+"Your dad is on his guided walk with his robotic assistant."
+
+Video: 
+Lanie and young son at breakfast table. She looks at his arm and snaps a picture with her phone.	VO: 
+A rash on her child’s arm is quickly identified.
+
+Video: 
+Smart hub device on table
+	Smart hub on screen: 
+TEXT FROM DR. ROY: “Diagnosis: ringworm. Anti-fungal cream recommended.”
+
+Digital assistant voice: 
+“Would you like this prescription delivered to your home?
+
+Video: 
+Lanie smiles and clicks OK.	VO: 
+Healthcare is no longer a place you go. It’s where you are - so caregivers can stay prepared and present.
+
+
+TRANSITION TBA
+
+VISUAL NOTES	NARRATION (Vignette #4)
+Video: 
+Priya sits at her kitchen table. A soft alert glows on a wall panel.
+
+Show a body with the liver inside flashing red.
+	VO: 
+Priya is 76 and has lived in the city her whole life.
+
+On screen text/alert: Updated organ health score (her liver is flashing red or ALT elevations)
+
+Video: 
+Split screen - Priya in her kitchen / Dr. Roy on a screen 
+	VO:  
+Dr. Roy and an A-I assistant agree, Priya should go to the care on-demand center for more advanced imaging.
+
+Video: 
+A sleek, self-driving ambulance glides through a quiet neighborhood.	VO: 
+No chaos. No sirens. Just care, on demand.
+
+Video: 
+Inside a clean, modular bay, robotic assistants prep for diagnostics.
+	Digital assistant voice: 
+Nanotherapy prescribed. Targeted liver regeneration protocol activated.
+
+Video: 
+Camera pans over the building: compact, modular, clean lines.
+
+	On screen text:  
+No waiting rooms. No bed towers. Just healing, then home.
+
+Video: 
+Priya rests briefly.  She has new sensors attached/ the clock moves time forward by just three hours
+
+See the same body popup, but now her liver is flashing green/normal
+	VO: 
+Within a few hours, Priya has a procedure to improve her liver function, her liver organ health score shoots up, and she’s on her way home.
+
+Video: 
+Priya returns home. A subtle glow from her home display confirms monitoring is active.
+	VO: 
+Hospitals are no longer the center of the health ecosystem. Care is mobile, closer to home and available when you need it, so patients can return home faster and recover with confidence. 
+
+
+TRANSITION BACK TO DR. ROY - zoom out from her shot back to Dr. Roy’s screen.
+
+Video:
+Dr. Roy watching over his patients on screens with pride	VO: 
+Integrated patient information… at his fingertips.
+
+On screen text: Year: 2035. Time: 11:30pm
+
+No inbox guilt. No regrets.
+
+Video:
+Split screen - Dr. Roy sleeping peacefully / An AI avatar powering up in another language for the next shift.	VO:  
+The future of healthcare is not a place we go. It's a system we choose to build, together with our clients. 
+
+At PwC, we're reimagining a system that's smarter, more human, and built for what's next.  This is the Leading Edge of healthcare - and it starts now. 
+
+
+
+
+
+August 11th client feedback due  EOD 
