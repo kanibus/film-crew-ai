@@ -6,7 +6,17 @@ Transform your screenplays into AI video generation prompts using 8 specialized 
 
 Film Crew AI reads your screenplay and automatically generates prompts that you can paste directly into AI video generation tools like Google Veo3. It breaks down your script into individual shots with detailed descriptions ready for video generation.
 
-## 📋 Step-by-Step Installation Guide
+## ⚡ Fastest Setup (Automatic)
+
+**Windows Users:** Double-click `QUICK_START.bat`
+
+**Mac/Linux Users:** Run `bash QUICK_START.sh`
+
+This will automatically install everything and run a test script!
+
+---
+
+## 📋 Manual Step-by-Step Installation Guide
 
 ### Step 1: Download the Project
 
