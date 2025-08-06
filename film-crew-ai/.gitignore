@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Output files
+output/*/
+!output/.gitkeep
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+*.log
+
+# Memory and state
+.claude/memory/
+.claude/versions/
+memory/claude-flow-data.json
+.roo/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+~$*
+
+# Test coverage
+coverage/
+*.lcov
+
+# Build files
+dist/
+build/
+
+# OS files
+desktop.ini
+.Spotlight-V100
+.Trashes
+
+# Claude Flow specific
+claude-flow.cmd
+.claude/config.json
+.claude/settings.json
+.roomodes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Keep important directories
+!output/prompts/.gitkeep
+!output/music/.gitkeep
+!output/sound/.gitkeep
+!output/continuity/.gitkeep
+!logs/.gitkeep
+!scripts/.gitkeep

@@ -1,0 +1,113 @@
+{
+  "version": "1.0.0",
+  "name": "Film Crew AI Hive Mind",
+  "description": "Orchestrated film production AI agents for script-to-video processing",
+  "agents": [
+    {
+      "id": "script-breakdown",
+      "name": "Script Breakdown Specialist",
+      "role": "Analyzes dramatic structure and emotional beats",
+      "promptFile": "templates/agents/script-breakdown.md",
+      "capabilities": ["scene_analysis", "dramatic_structure", "pacing"]
+    },
+    {
+      "id": "camera-director",
+      "name": "Camera Director",
+      "role": "Plans purposeful cinematography",
+      "promptFile": "templates/agents/camera-director.md",
+      "capabilities": ["shot_composition", "camera_movement", "visual_storytelling"]
+    },
+    {
+      "id": "lighting-designer",
+      "name": "Lighting Designer",
+      "role": "Shapes mood through illumination",
+      "promptFile": "templates/agents/lighting-designer.md",
+      "capabilities": ["mood_lighting", "naturalistic_design", "color_temperature"]
+    },
+    {
+      "id": "sound-designer",
+      "name": "Sound Designer",
+      "role": "Creates immersive 3D soundscapes",
+      "promptFile": "templates/agents/sound-designer.md",
+      "capabilities": ["spatial_audio", "ambience", "spot_effects"]
+    },
+    {
+      "id": "music-director",
+      "name": "Music Director",
+      "role": "Strategic decisions on score vs silence",
+      "promptFile": "templates/agents/music-director.md",
+      "capabilities": ["score_timing", "silence_strategy", "emotional_support"]
+    },
+    {
+      "id": "character-analysis",
+      "name": "Character Analysis Expert",
+      "role": "Ensures visual consistency and emotional tracking",
+      "promptFile": "templates/agents/character-analysis.md",
+      "capabilities": ["visual_consistency", "emotional_states", "character_arcs"]
+    },
+    {
+      "id": "background-designer",
+      "name": "Background Designer",
+      "role": "Environmental storytelling through production design",
+      "promptFile": "templates/agents/background-designer.md",
+      "capabilities": ["environment_design", "atmospheric_details", "visual_narrative"]
+    },
+    {
+      "id": "prompt-combiner",
+      "name": "Prompt Combiner",
+      "role": "Synthesizes all elements into Veo3 prompts",
+      "promptFile": "templates/agents/prompt-combiner.md",
+      "capabilities": ["synthesis", "veo3_optimization", "quality_control"]
+    }
+  ],
+  "workflows": [
+    {
+      "id": "process-script",
+      "name": "Process Script to Veo3",
+      "description": "Complete script processing through all agents",
+      "steps": [
+        {
+          "step": 1,
+          "agent": "script-breakdown",
+          "action": "analyze_structure",
+          "input": "script_content",
+          "output": "dramatic_analysis"
+        },
+        {
+          "step": 2,
+          "parallel": true,
+          "agents": [
+            "camera-director",
+            "lighting-designer",
+            "sound-designer",
+            "music-director",
+            "character-analysis",
+            "background-designer"
+          ],
+          "action": "analyze_shot",
+          "input": ["script_content", "dramatic_analysis"],
+          "output": "department_analysis"
+        },
+        {
+          "step": 3,
+          "agent": "prompt-combiner",
+          "action": "synthesize",
+          "input": "department_analysis",
+          "output": "veo3_prompt"
+        }
+      ]
+    }
+  ],
+  "orchestration": {
+    "mode": "python",
+    "engine": "film_crew_ai.py",
+    "fallback": "standalone",
+    "parallelProcessing": true,
+    "maxConcurrentAgents": 6
+  },
+  "output": {
+    "format": "json",
+    "structure": "departmental",
+    "naming": "{script_name}_{shot_id}_{agent}.json"
+  }
+}

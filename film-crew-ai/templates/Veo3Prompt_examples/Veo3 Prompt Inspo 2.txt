@@ -1,0 +1,279 @@
+﻿New Billboard Ad  (Source)
+
+Surreal billboard in the heart of Times Square. A massive digital display shows a beautiful woman’s face—flawless and radiant. But her hair defies the screen, flowing beyond the billboard into the real world, swaying in the actual wind as if breaking the boundary between ad and reality. Neon reflections light up the street below. The iconic L’Oréal logo is elegantly displayed on the billboard.
+
+
+Visual Prompting 
+Immediately delete instructions in white on the first frame and execute in order (Source)
+
+
+
+
+NEW Maserati Prompt (Source)
+
+Google geminiapp Veo 3 Quality  JSON prompt:
+{ "prompt_name": "Maserati: The Trident's Call", "version": 1.0, "target_ai_model": "V3 or similar text-to-video AI", "core_concept": "From the depths of the ocean, the power of Neptune's trident is unleashed, summoning a vortex of water and light that forges the Maserati MC20 supercar.", "details": { "scene_environment": { "setting": "The deep, dark abyss of the ocean. Ethereal 'god rays' of sunlight penetrate the darkness from above.", "features": "A rocky, ancient seabed. Bioluminescent particles drift slowly in the current.", "mood": "Mythical, majestic, mysterious, powerful." }, "action_sequence": [ { "step": 1, "description": "Opening Shot: The camera glides over the seabed and discovers a massive, ancient bronze trident, half-buried in the sand. It begins to hum and glow with a brilliant aquamarine light." }, { "step": 2, "description": "Main Action: The glowing trident unleashes its power, creating a massive, swirling underwater vortex. Sand, bubbles, and light are pulled into its powerful spin, with the trident at its center." }, { "step": 3, "description": "Solidification: Within the vortex, the chaotic currents of water are hydro-dynamically sculpted into the sleek, aerodynamic form of a Maserati MC20. The iconic trident logo on the front grille materializes first, glowing brightly. The water-form then solidifies into 'Bianco Audace' metallic white." }, { "step": 4, "description": "The Breach: The fully formed car rockets upwards from the depths. It bursts through the ocean surface in a spectacular explosion of water and spray, captured in slow motion. It lands perfectly on a wet, black-sand beach at twilight, water streaming off its flawless body." } ], "visual_style": { "aesthetic": "Cinematic, hyper-realistic, elegant, mythical.", "resolution": "8K", "lighting": "Dark and mysterious underwater lighting, punctuated by the trident's brilliant glow. The breach shot is dramatic, with the soft, beautiful light of twilight reflecting off the wet car." }, "camera_work": { "movement": "Start with a slow, exploratory glide through the deep water. Circle the glowing trident as it activates. Get caught in the vortex, spinning with the forming car. Follow the car as it rockets upwards, capturing the breach in epic slow motion. End on a low, wide-angle shot of the car on the beach, looking powerful and serene." } }, "negative_prompt": "Things to avoid: cartoonish fish, sunny days, cities, people, roads. The mood should be mythical and grand, not a nature documentary.", "final_text_prompt_for_ai": "Cinematic 8K video, hyper-realistic, mythic aesthetic. In the dark ocean abyss, a massive, ancient trident glows with aquamarine light, creating a powerful underwater vortex. The churning water is hydro-dynamically sculpted into the elegant form of a Maserati MC20. The car rockets upwards, bursting through the ocean surface in a spectacular slow-motion breach, landing perfectly on a wet, black-sand beach at twilight. Water streams off its flawless body. A fusion of myth, power, and Italian elegance." }
+
+
+
+
+NEW ASMR Prompt (Video)
+
+{ "shot": { "composition": "Extreme close-up, 85 mm macro lens, tripod-mounted, razor-thin depth of field", "camera_motion": "slow dolly-in from floor level, rising toward her mouth as jaws part", "frame_rate": "30fps", "film_grain": "digital clean with iridescent chrome LUT" }, "subject": { "description": "20-year-old Mediterranean girl with curly auburn hair, green eyes, subtle bronze face accents", "wardrobe": "minimalist black cotton t-shirt, leather bracelet, silver stud earrings", "character_consistency": "20-year-old Mediterranean girl with curly auburn hair and green eyes" }, "scene": { "location": "minimalist white studio with RGB LED backlighting and glass desk", "time_of_day": "late afternoon", "environment": "soft electric-blue neon outlines trace matte walls, ambient LED glow spills across reflective surfaces" }, "visual_details": { "action": "she lifts a vibrant purple sea urchin with glowing spines using black lacquered chopsticks and slowly guides it toward her open mouth, revealing metallic silver dental work as jaw muscles prepare", "props": "spiky purple sea urchin on clear acrylic tray, black lacquered chopsticks, Blue Yeti-style binaural mic", "physics": "sea urchin spines shimmer with brine droplets, interior meat fluoresces under UV rim light, delicate spine tips catch ambient light" }, "cinematography": { "lighting": "soft overhead ring light + 365 nm UV bar for purple fluorescence, subtle rim light on facial contours", "tone": "clinical, hypnotic, hyper-focused", "color_palette": "white, electric purple, iridescent silver reflections" }, "audio": { "dialogue": null, "primary_sounds": "delicate lacquer clink, soft spine rustle, wet suction as spines part past lips, controlled exhale through nose", "ambient": "ultra-low studio hum", "environmental_details": "fingertip tap on lacquered chopsticks", "music": "no music", "technical_effects": "single binaural head, –12 dBFS peaks" }, "style": { "visual_aesthetic": "minimalist cinematic realism", "aspect_ratio": "16:9", "quality": "4K" } }
+
+
+
+
+Original Ikea Prompt (Source)
+
+
+{
+  "description": "Cinematic shot of a sunlit Scandinavian bedroom. A sealed IKEA box trembles, opens, and flat pack furniture assembles rapidly into a serene, styled room highlighted by a yellow IKEA throw on the bed. No text.",
+  "style": cinematic",
+  "camera": "fixed wide angle",
+  "lighting": "natural warm with cool accents",
+  "room": "Scandinavian bedroom",
+  "elements": [
+    "IKEA box (logo visible)",
+    "bed with yellow throw",
+    "bedside tables",
+    "lamps",
+    "wardrobe",
+    "shelves",
+    "mirror",
+    "art",
+    "rug",
+    "curtains",
+    "reading chair",
+    "plants"
+  ],
+  "motion": "box opens, furniture assembles precisely and rapidly",
+  "ending": "calm, modern space with yellow IKEA accent",
+  "text": "none",
+  "keywords": [
+    "16:9",
+    "IKEA",
+    "Scandinavian",
+    "fast assembly",
+    "no text",
+    "warm & cool tones"
+  ]
+}
+
+
+
+
+
+
+
+
+Jeep Prompt (Source) 
+
+
+{ "description": "Epic cinematic shot in a wild, remote landscape. A rugged, mechanical expedition crate splits open, its panels unfolding to reveal a fully-equipped Jeep Wrangler Rubicon at the center of an adventure-ready basecamp at sunset.", "style": "cinematic, gritty, realistic, epic", "camera": "medium wide shot, steady, with a slow push-in as the vehicle is revealed", "lighting": "dramatic golden hour, long shadows, lens flare, warm functional light from the camp gear", "location": "Moab desert canyon at sunset", "elements": [ "Jeep Wrangler Rubicon (dirty, mud-splattered)", "mechanical unfolding crate with Jeep logo", "rooftop tent (already deployed)", "glowing LED camp lights", "a few solar panels", "durable camping chairs", "dust and grit in the air" ], "motion": "The crate's panels mechanically unlock and fold outward with audible clicks, revealing the Jeep within. Dust gently swirls from the movement.", "ending": "A stunning, adventure-ready scene with the rugged Jeep as the hero, ready for exploration.", "text": "none", "keywords": [ "4k", "hyperrealistic", "Jeep", "reveal", "adventure", "off-road", "basecamp", "rugged", "golden hour", "cinematic", "no people", "unfolding crate" ] }
+
+
+
+
+Alien Walking Scenario (Source)
+
+{
+  "scene_summary": "An excited alien frog creature gives a walking tour of a spaceship's drive room.",
+  "character": {
+    "type": "alien frog creature",
+    "personality": [
+      "expressive",
+      "excited",
+      "high energy"
+    ],
+    "features": {
+      "eyes": "expressive amphibian eyes",
+      "mouth": "expressive mouth",
+      "face": "expressive lips and face",
+      "movement": "expressive fluid gestures"
+    },
+    "accent": "gen z"
+  },
+  "environment": {
+    "location": "space ship",
+    "key_object": {
+      "name": "glop perpetugooper",
+      "description": "large machine emitting warm glowing light with glass cylinder filled with orange slime"
+    }
+  },
+  "action_sequence": [
+    {
+      "camera": "tracks him as he walks",
+      "dialogue": "And if you're hungry and you want some za we got the glop perpetu-gooper",
+      "gesture": "Walks to screen left and touches a large machine."
+    },
+    {
+      "dialogue": "You just think za and bloop!",
+      "result": "A floating pizza forms inside the machine."
+    },
+    {
+      "gesture": "He glances down at the pizza, then looks directly at the camera with excitement.",
+      "dialogue": "Manifest your dinner bro!"
+    }
+  ],
+  "visuals": {
+    "lighting": [
+      "diffuse studio lighting",
+      "warm bounce light from machine",
+      "soft shadows"
+    ],
+    "style": "soft cinematic color grading",
+    "technique": "tonemapped HDR"
+  },
+  "render_settings": {
+    "negative_prompt": {
+      "exclude": [
+        "music",
+        "high contrast",
+        "dark shadows",
+        "underexposed"
+      ]
+    }
+  }
+} 
+
+
+
+
+
+
+LV ad (Source)
+
+
+{
+  "description": "Fixed wide-angle cinematic shot of a dark velvet surface under soft spotlight. A golden monogram LV logo shimmers midair, suspended above the surface. It begins to disassemble into thousands of tiny gold threads, which flow downward like liquid embroidery. The threads weave themselves into a detailed silhouette of a Louis Vuitton handbag. As the final stitch completes, the bag rises gently upright, its leather glowing, monogram pattern subtly embossed. A gold zipper glides open on its own, revealing a soft interior glow. No text.",
+  "style": "cinematic, luxurious, elegant",
+  "camera": "fixed wide angle",
+  "lighting": "moody spotlight with warm golden highlights and gentle falloff",
+  "environment": "black velvet tabletop with soft shadows and refined texture",
+  "elements": [
+    "gold LV monogram logo",
+    "golden embroidery threads",
+    "Louis Vuitton handbag silhouette",
+    "glowing leather texture",
+    "gold zipper movement",
+    "interior light reveal"
+  ],
+  "motion": {
+    "type": "logo-to-thread-to-object",
+    "details": "LV logo dissolves into gold threads, threads form bag, bag opens"
+  },
+  "ending": "The completed LV bag rests in the center, glowing softly. The camera holds for a moment, then fades to black. No text.",
+  "audio": {
+    "voice_over": "none",
+    "music": "subtle cinematic string swell with harp accents",
+    "sfx": "gentle thread weaving sounds, leather flexing, zipper slide"
+  },
+  "text_overlay": "none",
+  "format": "16:9",
+  "keywords": [
+    "Louis Vuitton",
+    "luxury fashion",
+    "handbag reveal",
+    "embroidery transformation",
+    "elegance",
+    "cinematic branding"
+  ]
+}
+
+
+
+
+
+
+
+
+Sand Colosseum (Source)
+
+
+Ultra-realistic cinematic macro shot. A clean laboratory setting with warm, moody lighting. A single water droplet slowly falls from a glass pipette onto a cracked, ancient sand-colored clay surface inside a shallow petri dish. As the droplet hits, the camera stays close and focused as ancient Roman stone begins to bubble up and rise, magically forming the iconic structure of the Colosseum in exquisite detail. Timelapse-style organic growth, pieces assembling from the inside outward. Dust particles, light rays, soft focus background. Slow orchestral soundtrack.
+
+
+
+
+PROMPTS FROM LAST VIDEO!
+
+
+Corona Ad (Source)
+
+JSON Prompt: { "description": "Cinematic close-up of a cold, dewy Corona bottle sitting alone on a weathered beach table. It begins to hum, vibrate. The bottle cap *pops*—and the entire environment unfolds from inside: palm trees rise, lights string themselves, speakers assemble mid-air, sand shifts into a dance floor. A DJ booth builds from driftwood. Music kicks in. A beach rave is born. No text.", "style": "cinematic, magical realism", "camera": "starts ultra close, zooms out and cranes overhead as the world expands", "lighting": "sunset turning to neon—golden hour into party glow", "environment": "quiet beach transforms into high-energy beach rave", "elements": [ "Corona bottle (label visible, condensation dripping)", "pop-top cap in slow motion", "exploding citrus slice", "sand morphing into dance floor", "palm trees rising", "neon lights snapping on", "DJ booth building itself", "crowd materializing mid-dance", "fire pit lighting", "surfboards as signage"], "motion": "explosion of elements from bottle, everything assembles in rapid time-lapse", "ending": "Corona bottle in foreground, beach rave in full swing behind it", "text": "none", "keywords": ["Corona", "beach party", "bottle transforms", "rave build", "sunset to night", "cinematic", "no text" ] }
+
+
+
+
+Tesla Ad (Source)
+
+
+{ "description": "Cinematic shot of a minimalist Tesla-branded crate magically opening to reveal a fully formed Tesla vehicle and an instantly assembled, sleek Tesla-themed showroom around it. No text.", "style": "cinematic", "camera": "fixed wide angle, with subtle zooms on key transformations", "lighting": "controlled, high-tech, transitioning from dim to bright and clean", "room": "empty futuristic space transforming into a minimalist Tesla showroom", "elements": [ "Tesla-branded crate (glowing seams)", "Tesla vehicle (e.g., Model 3/Y/Cybertruck)", "charging station", "minimalist display panels", "sleek showroom furniture", "ambient lighting elements" ], "motion": "crate panels retract smoothly and silently, car revealed, showroom elements rise/unfold precisely and rapidly", "ending": "pristine, inviting Tesla showroom with car as centerpiece", "text": "none", "keywords": [ "16:9", "Tesla", "magic assembly", "showroom", "innovation", "futuristic", "no text", "clean design", "reveal" ] }
+
+
+
+
+Ikea Ad (Source)
+
+Veo 3 Timeline PROMPT:
+
+
+metadata:
+  prompt_name: "IKEA Empty Room Assembly"
+  base_style: "cinematic, photorealistic, 4K"
+  aspect_ratio: "16:9"
+  room_description: "An empty, large, sunlit Scandinavian room with white walls and light wood floors."
+  camera_setup: "A single, fixed, wide-angle shot. The camera does not move for the entire 8-second duration."
+  key_elements:
+    - "A sealed IKEA box with logo visible"
+  assembled_elements:
+    - "bed with white duvet"
+    - "yellow IKEA throw blanket"
+    - "bedside tables"
+    - "lamps"
+    - "wardrobe"
+    - "shelves"
+    - "mirror"
+    - "art"
+    - "rug"
+    - "curtains"
+    - "potted plants"
+  negative_prompts: ["no people", "no text overlays", "no distracting music"]
+
+
+timeline:
+  - sequence: 1
+    timestamp: "00:00-00:01"
+    action: "In the center of the otherwise empty room, a sealed IKEA box sits on the floor and begins to tremble gently."
+    audio: "Low, subtle rumbling sound. The echo of a large, empty room."
+
+
+  - sequence: 2
+    timestamp: "00:01-00:02"
+    action: "The box seams burst open with a puff of cardboard dust."
+    audio: "A sharp 'POP' sound, followed by tearing cardboard."
+
+
+  - sequence: 3
+    timestamp: "00:02-00:06"
+    action: "Hyper-lapse: From the fixed wide perspective, furniture pieces fly out of the box and assemble themselves, creating all the items from the 'assembled_elements' list."
+    audio: "A cascade of satisfying, fast-paced ASMR sounds: whirring, clicking, wood snapping into place."
+
+
+  - sequence: 4
+    timestamp: "00:06-00:08"
+    action: "The final piece—the yellow throw blanket—gracefully lands on the newly formed bed. The room is now perfectly furnished and serene. All motion ceases."
+    audio: "All chaotic sounds stop. A single, soft 'fwoomp' as the blanket lands. The sound of a furnished, quiet room."
+
+
+
+
+
+
+
+
+Chewy Ad (Source)
+
+
+description: "Cinematic shot of a sunlit, empty kitchen. A sealed Chewy box sits in the center. It trembles, explodes open in one burst, and pet supplies rapidly assemble into place: food and water bowls, a dog bed, toys, and a bag of food. A dog runs in and flops into the bed. No text." style: cinematic camera: fixed wide angle lighting: natural warm with soft shadows room: modern kitchen with hardwood floors elements: - "Chewy box (logo visible)" - "dog food and water bowls" - " dog bed" - "dog toys (rope, ball, bone)" - "bag of dog food" - "wall hook with leash" - "dog (golden retriever)" motion: "box explodes open, dog items fly out and assemble rapidly and precisely" ending: "dog enters and settles happily into the bed" text: none keywords: - "16:9" - "Chewy" - "pet supplies" - "fast assembly" - "dog" - "no text" - "warm lighting" ```

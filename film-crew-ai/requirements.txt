@@ -1,0 +1,14 @@
+# Film Crew AI Requirements
+# Python 3.8+ required
+
+# Core dependencies for enhanced multi-format support
+PyPDF2>=3.0.0         # For PDF file processing
+python-docx>=0.8.11   # For Word document processing
+chardet>=5.0.0        # For encoding detection
+
+# Optional dependencies for enhanced features
+# rich>=13.0.0        # For enhanced terminal output
+# click>=8.1.0        # For advanced CLI features
+# pyyaml>=6.0         # For YAML configuration support
+# jinja2>=3.1.0       # For template rendering
+# tqdm>=4.65.0        # For progress bars

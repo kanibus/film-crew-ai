@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+output/
+scripts/*.pdf
+scripts/*.doc
+scripts/*.docx
+backup_old_versions/
+test_output/
+*.log
+
+# Sensitive files
+.env
+.env.local
+config.json
+credentials.json
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Documentation
+docs/_build/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+~$*
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Output folders (but keep structure)
+output/*
+!output/.gitkeep
+
+# Scripts folder (but keep structure)  
+scripts/*
+!scripts/.gitkeep
+!scripts/example_script.txt

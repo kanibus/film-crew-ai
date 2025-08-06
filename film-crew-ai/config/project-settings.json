@@ -1,0 +1,22 @@
+{
+  "project_name": "Film Production",
+  "genre": "Drama",
+  "tone": "Cinematic",
+  "visual_style": "High contrast, moody",
+  "swarm_settings": {
+    "parallel_limit": 4,
+    "queen": "movie-director",
+    "workers": 8,
+    "strategy": "film-production"
+  },
+  "poetry_preferences": {
+    "level": "high",
+    "literal_vs_lyrical": "30/70",
+    "restraint_moments": ["violence", "intimacy"]
+  },
+  "audio_philosophy": {
+    "silence_usage": "strategic",
+    "music_presence": "selective",
+    "off_screen_emphasis": true
+  }
+}
