@@ -1,0 +1,138 @@
+{
+  "name": "Film Production Pipeline",
+  "description": "Transforms screenplays into Veo3 prompts using specialized agents",
+  "triggers": [
+    {
+      "type": "file_pattern",
+      "pattern": "scripts/*.{txt,pdf,doc,docx}",
+      "action": "process_screenplay"
+    }
+  ],
+  "steps": [
+    {
+      "id": "load_script",
+      "name": "Load Screenplay",
+      "description": "Read and parse the screenplay file",
+      "agent": null,
+      "tools": [
+        "read",
+        "parse"
+      ]
+    },
+    {
+      "id": "analyze_script",
+      "name": "Script Analysis",
+      "description": "Analyze script structure and content",
+      "agent": "script-breakdown",
+      "inputs": [
+        "screenplay_text"
+      ],
+      "outputs": [
+        "scenes",
+        "shots",
+        "beats"
+      ]
+    },
+    {
+      "id": "analyze_characters",
+      "name": "Character Analysis",
+      "description": "Extract and track character information",
+      "agent": "character-analysis",
+      "inputs": [
+        "screenplay_text",
+        "scenes"
+      ],
+      "outputs": [
+        "character_profiles",
+        "emotional_arcs"
+      ]
+    },
+    {
+      "id": "analyze_environment",
+      "name": "Environment Analysis",
+      "description": "Identify locations and props",
+      "agent": "environment-props",
+      "inputs": [
+        "scenes"
+      ],
+      "outputs": [
+        "locations",
+        "props"
+      ]
+    },
+    {
+      "id": "plan_cinematography",
+      "name": "Camera Planning",
+      "description": "Design shots and camera movements",
+      "agent": "camera-director",
+      "inputs": [
+        "scenes",
+        "beats"
+      ],
+      "outputs": [
+        "shot_list",
+        "camera_movements"
+      ]
+    },
+    {
+      "id": "design_lighting",
+      "name": "Lighting Design",
+      "description": "Plan lighting and atmosphere",
+      "agent": "lighting-designer",
+      "inputs": [
+        "scenes",
+        "locations"
+      ],
+      "outputs": [
+        "lighting_plans",
+        "mood_boards"
+      ]
+    },
+    {
+      "id": "design_sound",
+      "name": "Sound Design",
+      "description": "Create soundscapes and effects",
+      "agent": "sound-designer",
+      "inputs": [
+        "scenes",
+        "locations"
+      ],
+      "outputs": [
+        "soundscapes",
+        "effects_list"
+      ]
+    },
+    {
+      "id": "plan_music",
+      "name": "Music Direction",
+      "description": "Plan musical themes and scoring",
+      "agent": "music-director",
+      "inputs": [
+        "scenes",
+        "emotional_arcs"
+      ],
+      "outputs": [
+        "music_cues",
+        "themes"
+      ]
+    },
+    {
+      "id": "synthesize_prompts",
+      "name": "Prompt Synthesis",
+      "description": "Combine all elements into Veo3 prompts",
+      "agent": "prompt-synthesis",
+      "inputs": [
+        "*"
+      ],
+      "outputs": [
+        "veo3_prompts",
+        "scene_summaries"
+      ]
+    }
+  ],
+  "error_handling": {
+    "retry_failed_steps": true,
+    "max_retries": 3,
+    "fallback_mode": "basic_processing"
+  }
+}

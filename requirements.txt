@@ -1,14 +1,14 @@
 # Film Crew AI Requirements
 # Python 3.8+ required
 
-# PDF Processing
-PyPDF2>=3.0.0
+# Core Dependencies
+PyPDF2>=3.0.0          # PDF Processing
+python-docx>=0.8.11    # Word Document Processing
+chardet>=5.0.0         # Character Encoding Detection
 
-# Word Document Processing
-python-docx>=0.8.11
-
-# Character Encoding Detection
-chardet>=5.0.0
+# Claude Code Integration (Required for sub-agents)
+# Install via npm: npm install -g @anthropic/claude-code
+# Documentation: https://docs.anthropic.com/en/docs/claude-code
 
 # Data Classes (for Python < 3.7)
 dataclasses>=0.6;python_version<'3.7'

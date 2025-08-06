@@ -6,6 +6,18 @@ Transform your screenplays into AI video generation prompts using 8 specialized 
 
 Film Crew AI reads your screenplay and automatically generates prompts that you can paste directly into AI video generation tools like Google Veo3. It breaks down your script into individual shots with detailed descriptions ready for video generation.
 
+### 🎭 8 Specialized AI Agents Working Together
+
+When using Claude Code integration, your screenplay is processed by:
+1. **Script Breakdown Agent** - Analyzes structure and dramatic beats
+2. **Character Analysis Agent** - Tracks profiles and emotional arcs  
+3. **Environment & Props Agent** - Identifies locations and props
+4. **Camera Director Agent** - Plans shots and movements
+5. **Lighting Designer Agent** - Creates lighting moods
+6. **Sound Designer Agent** - Designs soundscapes
+7. **Music Director Agent** - Plans musical themes
+8. **Prompt Synthesis Agent** - Combines everything into Veo3 prompts
+
 ## ⚡ Fastest Setup (Automatic)
 
 **Windows Users:** Double-click `QUICK_START.bat`
@@ -13,6 +25,27 @@ Film Crew AI reads your screenplay and automatically generates prompts that you 
 **Mac/Linux Users:** Run `bash QUICK_START.sh`
 
 This will automatically install everything and run a test script!
+
+### 🤖 Advanced: Claude Code Integration (Optional)
+
+For enhanced AI agent coordination using Claude Code:
+
+1. **Install Claude Code CLI:**
+```bash
+npm install -g @anthropic/claude-code
+```
+
+2. **Setup Film Crew agents:**
+```bash
+python setup_claude_code.py
+```
+
+3. **Use with Claude Code:**
+```bash
+claude-code run workflow --input scripts/your_script.txt
+```
+
+This activates 8 specialized sub-agents working in parallel!
 
 ---
 

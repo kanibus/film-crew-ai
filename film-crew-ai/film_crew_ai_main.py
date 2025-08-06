@@ -28,6 +28,7 @@ try:
     from enhanced_document_reader import EnhancedDocumentReader
     from agent_logger import AgentExecutionLogger
     from scene_summary_generator import SceneSummaryGenerator
+    from claude_code_integration import ClaudeCodeAgentSystem
 except ImportError as e:
     print(f"Error importing modules: {e}")
     print("Please ensure all required modules are in the same directory.")
@@ -47,10 +48,20 @@ def setup_logging(verbose: bool = False) -> logging.Logger:
 class FilmCrewAIPipeline:
     """Main pipeline for processing screenplays to Veo3 prompts"""
     
-    def __init__(self, verbose: bool = False):
+    def __init__(self, verbose: bool = False, use_claude_code: bool = False):
         self.logger = setup_logging(verbose)
         self.supported_formats = SUPPORTED_FORMATS
         self.reader = EnhancedDocumentReader()
+        self.use_claude_code = use_claude_code
+        
+        # Initialize Claude Code integration if requested
+        if self.use_claude_code:
+            try:
+                self.claude_code = ClaudeCodeAgentSystem(Path.cwd())
+                self.logger.info("Claude Code integration initialized")
+            except Exception as e:
+                self.logger.warning(f"Claude Code integration not available: {e}")
+                self.claude_code = None
         
     def validate_input(self, script_path: Path) -> bool:
         """Validate input file"""
