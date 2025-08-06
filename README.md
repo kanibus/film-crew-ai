@@ -110,6 +110,23 @@ echo "FADE IN:\n\nINT. COFFEE SHOP - DAY\n\nSARAH enters.\n\nFADE OUT." > script
 
 ### 🎬 Your First Script Processing
 
+#### Method 1: Interactive Edit Mode (Recommended) ✨
+```bash
+edit-mode.bat
+```
+This opens an interactive menu where you can:
+- Process scripts
+- Edit individual shots
+- Create restore points
+- Manage versions
+
+#### Method 2: Direct Claude CLI
+```bash
+claude --dangerously-skip-permissions
+# Then use: /film-swarm scripts/test-scene.txt
+```
+
+#### Method 3: Batch Processing (Advanced)
 1. **Add your script** to the `scripts/` folder:
 ```
 scripts/
@@ -215,20 +232,27 @@ graph LR
     L --> M[Veo 3 Output]
 ```
 
-### ✏️ **Edit Mode Workflow**
+### ✏️ **Edit Mode Workflow (Primary Interface)**
 
-Interactive editing for specific shots:
+**The recommended way to use Film Crew AI:**
 
 ```bash
 edit-mode.bat
-
-Options:
-1. Edit single shot     # Modify one aspect
-2. Edit multiple shots  # Batch changes
-3. Create restore point # Save current state
-4. List versions       # View all saves
-5. Restore version     # Rollback changes
 ```
+
+**Interactive Menu Options:**
+1. **Edit single shot** - Modify camera, lighting, music, etc.
+2. **Edit multiple shots** - Batch changes across scenes
+3. **Create restore point** - Save before major changes
+4. **List versions** - View all saved states
+5. **Restore version** - Rollback to any point
+6. **Exit** - Close the editor
+
+**Why use Edit Mode?**
+- ✅ No configuration needed
+- ✅ User-friendly interface
+- ✅ Built-in version control
+- ✅ Works immediately after installation
 
 ### 🔄 **Version Control Workflow**
 
@@ -361,6 +385,25 @@ Edit `config/project-settings.json`:
 <details>
 <summary>📌 Common Issues & Solutions</summary>
 
+### "How do I use this?"
+**Use Edit Mode - it's the easiest way:**
+```bash
+edit-mode.bat
+```
+This opens an interactive menu that guides you through everything!
+
+### "Claude Flow swarm not working"
+**This is normal - use these alternatives instead:**
+1. **Edit Mode** (Recommended): `edit-mode.bat`
+2. **Direct Claude CLI**: `claude --dangerously-skip-permissions`
+3. **Manual processing**: Add scripts to `scripts/` folder
+
+### "Port 3000 already in use"
+```bash
+# Use alternative port
+claude-flow start --ui --port 3001
+```
+
 ### "Claude CLI not found"
 ```bash
 npm install -g @anthropic-ai/claude-code
@@ -377,17 +420,9 @@ cp templates/agents/*.md .claude/agents/
 ```
 
 ### "Processing stuck"
-1. Check UI: `http://localhost:3000/console`
-2. Stop with `Ctrl+C`
-3. Check logs: `logs/claude-flow.log`
-4. Restart: `claude-flow start --ui`
-
-### "Version conflict"
-```bash
-# Update to latest
-npm update -g claude-flow@latest
-npm update -g @anthropic-ai/claude-code
-```
+1. Use Edit Mode instead: `edit-mode.bat`
+2. Or restart with: `Ctrl+C`
+3. Check logs: `logs/`
 
 </details>
 

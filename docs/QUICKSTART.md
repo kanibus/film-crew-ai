@@ -53,7 +53,28 @@ cp templates/commands/*.md .claude/commands/
 
 ## 🎬 Process Your First Script (1 minute)
 
-### Step 1: Add Your Script
+### Option 1: Use Edit Mode (Easiest!) ✨
+
+```bash
+edit-mode.bat
+```
+
+Then select option 1 to process scripts. The interactive menu guides you through everything!
+
+### Option 2: Direct Claude CLI
+
+```bash
+claude --dangerously-skip-permissions
+```
+
+In Claude, type:
+```
+/film-swarm scripts/test-scene.txt
+```
+
+### Option 3: Batch Processing
+
+#### Step 1: Add Your Script
 
 Create a file `scripts/my-first-scene.txt`:
 
@@ -73,7 +94,7 @@ I know you're here.
 FADE OUT.
 ```
 
-### Step 2: Run Processing
+#### Step 2: Run Processing
 
 ```bash
 process-scripts.bat
@@ -110,18 +131,23 @@ Check `output/my-first-scene_[timestamp]/`:
 3. Paste into Veo 3's prompt field
 4. Generate your video!
 
-## ✏️ Quick Edits
+## ✏️ Quick Edits (Primary Interface)
 
-Need to change something? Use Edit Mode:
+**Edit Mode is the main way to use Film Crew AI:**
 
 ```bash
 edit-mode.bat
 ```
 
-Select options:
+**What you can do:**
 - `1` - Edit single shot (change camera angle, lighting, etc.)
+- `2` - Edit multiple shots at once
 - `3` - Save current version before changes
-- `5` - Restore previous version if needed
+- `4` - View all saved versions
+- `5` - Restore any previous version
+- `6` - Exit when done
+
+**Pro Tip:** Always create a restore point (option 3) before major edits!
 
 ### Example: Change Camera Angle
 
